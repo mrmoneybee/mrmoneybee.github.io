@@ -1,0 +1,74 @@
+/* Responsive Product Section Styling */
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product img {
+        width: 50%; /* Image takes up 50% width */
+        margin: 0 auto 20px auto; /* Center the image with margin below */
+    }
+
+    section h3.image {
+        width: 50%;
+        text-align: center;
+        font-size: 20px;
+        color: purple;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 120px 0;
+        background-color: white;
+        border: 5px dashed purple;
+        border-radius: 30px;
+    }
+
+    .product-info {
+        width: 100%; /* Full width for the text content */
+    }
+
+    .product-info h3 {
+        font-size: 24px; /* Slightly smaller title font size */
+    }
+
+    .product-info p {
+        font-size: 18px; /* Slightly smaller description font size */
+    }
+
+    .product-info button {
+        font-size: 20px; /* Slightly smaller button text */
+        padding: 15px 25px; /* Adjust padding for the button */
+    }
+}
+
+@media (max-width: 480px) {
+    .product img {
+        width: 80%; /* Image takes up more width on very small screens */
+    }
+
+    section h3.image {
+        width: 80%;
+        text-align: center;
+        font-size: 20px;
+        color: purple;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 120px 0;
+        background-color: white;
+        border: 5px dashed purple;
+        border-radius: 30px;
+    }
+
+    .product-info h3 {
+        font-size: 22px; /* Further reduce title font size */
+    }
+
+    .product-info p {
+        font-size: 16px; /* Further reduce description font size */
+    }
+
+    .product-info button {
+        font-size: 18px; /* Further reduce button text size */
+        padding: 12px 20px; /* Adjust padding for the button */
+    }
+}

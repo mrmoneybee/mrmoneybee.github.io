@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+    section {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    section h2 {
+        font-size: 23px;
+    }
+
+    section p {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 25px;
+    }
+}

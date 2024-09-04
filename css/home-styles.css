@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 1%;
+    margin-top: 50px;
+}
+
+/* ------------------------------------------- */
+/* ----------------- Section ----------------- */
+/* ------------------------------------------- */
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    text-align: justify;
+    overflow: hidden;
+}
+
+section .left-content {
+    width: 48%;
+}
+
+section .right-content {
+    width: 40%;
+    text-align: center;
+}
+
+section h2,
+section p {
+    margin-bottom: 20px;
+}
+
+section img {
+    border-radius: 30px;
+    border: 5px solid purple;
+    width: 90%;
+    height: auto;
+}
+
+section a {
+    display: block;
+    margin-top: 20px;
+}
+
+section button {
+    background-color: purple;
+    font-family: 'CinzelDecorative-Regular';
+    width: 90%;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease;
+    font-size: 22px;
+}
+
+section button:hover {
+    box-shadow: 0 0 10px purple;
+}

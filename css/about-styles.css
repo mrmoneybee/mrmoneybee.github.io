@@ -1,0 +1,12 @@
+/* Title Styling */
+section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+section p {
+    text-align: justify;
+    margin-bottom: 20px;
+}

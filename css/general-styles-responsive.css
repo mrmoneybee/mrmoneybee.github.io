@@ -1,0 +1,63 @@
+/* ------------------------------------------------------ */
+/* ----------------- Top Navigation Bar ----------------- */
+/* ------------------------------------------------------ */
+
+@media (max-width: 1024px) {
+    section {
+        padding: 2%;
+        margin: 30px 10%;
+        margin-bottom: 50px;
+    }
+
+    #topnav {
+        padding: 10px 5%;
+    }
+
+    #topnav img {
+        height: 53px;
+        transition: height 0.1s ease;
+    }
+
+    #topnav img:hover {
+        height: 50px;
+    }
+
+    /* Toggle Button */
+    #topnav button {
+        display: block;
+        float: right;
+        font-size: 32.5px;
+        padding: 20px;
+        background-color: gold;
+        border: none;
+        cursor: pointer;
+        transition: font-size 0.1s ease;
+    }
+
+    #topnav button:hover {
+        font-size: 30px;
+    }
+
+    #topnav ul li:hover {
+        background-color: rgb(255, 229, 84);
+        width: 100%;
+        text-align: center;
+    }
+
+    #topnav ul {
+        flex-direction: column;
+        align-items: center;
+        background-color: gold;
+        top: 60px;
+        width: 100%;
+        display: none;
+    }
+
+    #topnav ul.show {
+        display: flex;
+    }
+
+    #topnav ul.hide {
+        display: none;
+    }
+}

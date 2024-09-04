@@ -1,0 +1,74 @@
+/* Responsive Order Section Styling */
+@media (max-width: 768px) {
+    .order {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .order img#image {
+        width: 80%; /* Image takes up more space and centers */
+        float: none; /* Remove float to stack the content */
+        margin: 0 auto 20px auto; /* Center image with margin below */
+    }
+
+    .order-info {
+        width: 100%; /* Full width for content */
+        float: none; /* Remove float to stack content below the image */
+    }
+
+    .order-info h3 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .order-info p {
+        font-size: 18px; /* Adjust paragraph font size */
+    }
+
+    .tutorial h4, .bitcoin-address h4 {
+        font-size: 20px; /* Adjust heading sizes */
+    }
+
+    .tutorial ol {
+        font-size: 16px; /* Adjust list font size */
+        margin-left: 0; /* Center list */
+        padding-left: 20px; /* Add padding for indentation */
+    }
+
+    .bitcoin-address p {
+        width: 100%;
+        font-size: 16px; /* Adjust address font size */
+        padding: 10px; /* Slightly increase padding for easier touch interaction */
+    }
+
+    .qr-code {
+        width: 200px; /* Adjust size for QR code on smaller screens */
+        margin: 20px auto 0 auto; /* Center the QR code */
+    }
+}
+
+@media (max-width: 480px) {
+    .order img#image {
+        width: 100%; /* Full width image for very small screens */
+    }
+
+    .order-info h3 {
+        font-size: 22px; /* Reduce title font size further */
+    }
+
+    .order-info p {
+        font-size: 16px; /* Reduce paragraph font size */
+    }
+
+    .tutorial ol {
+        font-size: 14px; /* Reduce list font size */
+    }
+
+    .bitcoin-address p {
+        font-size: 14px; /* Further reduce address font size */
+        padding: 8px; /* Slightly smaller padding for smaller screens */
+    }
+
+    .qr-code {
+        width: 150px; /* Reduce QR code size */
+    }
+}

@@ -1,0 +1,71 @@
+/* Order Section Styling */
+.order {
+    overflow: auto;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0);
+}
+
+.order img#image {
+    width: 35%; /* Left side image */
+    border: 5px solid purple;
+    border-radius: 30px;
+    float: left;
+}
+
+.order-info {
+    width: 60%; /* Right side content */
+    float: right;
+}
+
+.order-info h3 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.order-info p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.tutorial h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.tutorial ol {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.tutorial ol li {
+    margin-bottom: 8px;
+}
+
+.bitcoin-address h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.bitcoin-address p {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+    width: fit-content;
+    transition: background-color 0.2s;
+}
+
+.bitcoin-address p:hover {
+    background-color: #e0e0e0;
+}
+
+.qr-code {
+    width: 170px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}

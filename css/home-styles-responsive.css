@@ -1,0 +1,42 @@
+@media (max-width: 1300px) {
+    h1 {
+        font-size: 18px;
+        margin: 5% 5%;
+    }
+
+    section {
+        display: block;
+        padding: 5%;
+        text-align: center;
+    }
+
+    section .left-content,
+    section .right-content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    section img {
+        width: 50%;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    section button {
+        padding: 8px 16px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    section img {
+        width: 80%;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    section button {
+        padding: 8px 16px;
+        width: 80%;
+    }
+}
