@@ -47,6 +47,10 @@
 }
 
 @media (max-width: 480px) {
+    h4 span#price {
+        font-size: 11px;
+    }
+
     .order img#image {
         width: 100%; /* Full width image for very small screens */
     }
@@ -64,7 +68,7 @@
     }
 
     .bitcoin-address p {
-        font-size: 14px; /* Further reduce address font size */
+        font-size: 11px; /* Further reduce address font size */
         padding: 8px; /* Slightly smaller padding for smaller screens */
     }
 

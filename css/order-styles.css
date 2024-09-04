@@ -1,4 +1,13 @@
 /* Order Section Styling */
+h4 span#price {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    font-family: 'PTSerif-Regular';
+}
+
 .order {
     overflow: auto;
     margin: 40px auto;
