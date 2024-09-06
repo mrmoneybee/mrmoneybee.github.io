@@ -8,6 +8,23 @@ h4 span#price {
     font-family: 'PTSerif-Regular';
 }
 
+#price-free {
+    background-color: rgb(0, 151, 35);
+    font-family: 'CinzelDecorative-Regular';
+    color: white;
+    border: none;
+    margin-left: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: box-shadow 0.3s ease;
+    font-size: 18px;
+}
+
+#price-free:hover {
+    box-shadow: 0 0 10px rgb(21, 255, 0);
+}
+
 .order {
     overflow: auto;
     margin: 40px auto;
